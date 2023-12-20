@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+body {
+    background-color: whitesmoke
+}
+
+.appbar {
+    background-color: white;
+    width: 100%;
+}
+
+.appbar .image-container {
+    display: inline-block;
+    position: relative;
+    padding-top: 20px;
+}
+
+.appbar .image-container img {
+    width: 100px;
+    height: 50px;
+}
+
+.appbar .navlist {
+    display: inline-block;
+    margin-right: 7%;
+    width: 80%;
+    text-align: right;
+}
+
+.appbar .navlist .navlink {
+    display: inline;
+    list-style: none;
+    padding: 4%;
+}
+
+.appbar .navlist .navlink a {
+    text-decoration: none;
+    color: black;
+}
+
+.about {
+    text-decoration: none;
+    color: black;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.name h1,
+h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 2rem;
+}
+
+.name h2 {
+    font-size: 1.2rem;
+}
